@@ -29,8 +29,10 @@
 обьединить все поддеревья равного ранга
 ![alt text](https://github.com/alkasher/Fibonacci_Heap/blob/master/2шаг.png?raw=true)
 
+
 второй шаг:
 снова обьединить все поддеревья равного ранга
+
 ![alt text](https://github.com/alkasher/Fibonacci_Heap/blob/master/3шаг.png?raw=true)
 
 Так как больше поддеревьев равного ранга нет, то функция завершает свое выполнение.
