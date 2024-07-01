@@ -23,7 +23,8 @@
 Рассмотрим вызов функции consolidate() на примере:
 ![alt text](https://github.com/alkasher/Fibonacci_Heap/blob/master/двусвязный.png?raw=true)
 
-consolidate:
+### consolidate:
+
 первый шаг:
 обьединить все поддеревья ранга 0
 ![alt text](https://github.com/alkasher/Fibonacci_Heap/blob/master/2шаг.png?raw=true)
