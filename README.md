@@ -22,6 +22,7 @@
 
 Рассмотрим на примере:
 
+```mermaid
 flowchart TD
 
 subgraph Z[" "]
@@ -36,3 +37,4 @@ direction LR
 
     4-->5
 end
+```
