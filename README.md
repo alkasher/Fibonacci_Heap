@@ -46,15 +46,5 @@ flowchart TB
     2-->0
     2-->4
     4-->2
-    subgraph one
-    0-->1
-    end
-    subgraph two
-    2-->3
-    end
-    subgraph three
-    4
-    end
-    
 ```
 
