@@ -42,21 +42,23 @@ consolidate:
 обьединить все поддеревья ранга 0
 ```mermaid
 graph TD
-subgraph R1
+subgraph Tree1
 A[0] --> B[1]
 B[1] --> A[0]
 end
-subgraph R2
+subgraph Tree2
 C[2] --> D[3]
 D[3] --> C[2]
 end
-subgraph R3
+subgraph Tree3
 E[4]
 end
-subgraph R4
+subgraph Fibonacci Heap
 direction LR
 R1-->R2
+R2-->R1
 R2-->R3
+R3-->R2
 end
 ```
 
