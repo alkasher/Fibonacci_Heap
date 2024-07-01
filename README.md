@@ -53,6 +53,7 @@ end
 subgraph R3
 E[4]
 end
+subgraph R4
 direction LR
 R1-->R2
 R2-->R3
