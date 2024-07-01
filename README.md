@@ -42,9 +42,12 @@ consolidate:
 обьединить все поддеревья ранга 0
 ```mermaid
 flowchart TB
+direction LR
     0-->2
     2-->0
     2-->4
     4-->2
+0-->1
+1-->0
 ```
 
