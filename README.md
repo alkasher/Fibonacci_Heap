@@ -55,10 +55,10 @@ E[4]
 end
 subgraph Fibonacci Heap
 direction LR
-R1-->R2
-R2-->R1
-R2-->R3
-R3-->R2
+Tree1-->Tree2
+Tree2-->Tree1
+Tree2-->Tree3
+Tree3-->Tree2
 end
 ```
 
