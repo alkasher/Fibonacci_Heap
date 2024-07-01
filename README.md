@@ -54,6 +54,7 @@ subgraph R3
 E[4]
 end
 direction LR
-A[0]-->C[2]
+R1-->R2
+R2-->R3
 ```
 
