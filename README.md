@@ -51,7 +51,8 @@ direction LR
 4-->2
 end
 
- subgraph ZA[" "]
+subgraph ZA[" "]
+direction TD
     0-->1
     2-->3
 end
