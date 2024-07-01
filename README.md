@@ -41,17 +41,13 @@ consolidate:
 первый шаг:
 обьединить все поддеревья ранга 0
 ```mermaid
-graph TD;
-   g-->0;
-g-->4;
-0-->1;
-1-->0;
-0-->2;
-2-->0;
-2-->3;
-3-->2;
-
-2-->4;
-4-->2;
+stateDiagram-v2
+        State1: The state with a note
+        note right of State1
+            Important information! You can write
+            notes.
+        end note
+        State1 --> State2
+        note left of State2 : This is the note to the left.
 ```
 
