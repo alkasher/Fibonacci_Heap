@@ -41,15 +41,20 @@ consolidate:
 первый шаг:
 обьединить все поддеревья ранга 0
 ```mermaid
-graph TD;
-    0-->1;
-    1-->0;
-    0-->2;
+flowchart TD
 
-    2-->0;
-    2-->3;
-    3-->2;
+subgraph Z[" "]
+direction LR
+  0 --> 2
+2-->0
+2-->4
+4-->2
+end
 
-    2-->4;
+ subgraph ZA[" "]
+    0-->1
+    2-->3
+end
+Z --> ZA
 ```
 
