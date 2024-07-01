@@ -42,13 +42,19 @@ consolidate:
 обьединить все поддеревья ранга 0
 ```mermaid
 flowchart TB
+
+subgraph Z[" "]
 direction LR
     0-->2
     2-->0
     2-->4
     4-->2
 end
-0-->1
+subgraph ZA[" "]
+direction LR
+    0-->1
 1-->0
+end
+Z-->ZA
 ```
 
