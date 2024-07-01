@@ -22,41 +22,7 @@
 
 Рассмотрим вызов функции consolidate() на примере:
 
-```mermaid
-flowchart TD
 
-subgraph Z[" "]
-direction LR
-    0-->1
-    1-->0
-    1-->2
-    2-->1
-    2-->3
-    3-->2
-    3-->4
-    4-->3
-end
-```
 consolidate:
 первый шаг:
 обьединить все поддеревья ранга 0
-```mermaid
-graph TD
-subgraph Tree1
-A[0] --> B[1]
-B[1] --> A[0]
-end
-subgraph Tree2
-C[2] --> D[3]
-D[3] --> C[2]
-end
-subgraph Tree3
-E[4]
-end
-subgraph Fibonacci Heap
-direction LR
-Tree1-->Tree2
-Tree2-->Tree3
-end
-```
-
