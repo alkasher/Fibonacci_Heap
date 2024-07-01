@@ -41,12 +41,17 @@ consolidate:
 первый шаг:
 обьединить все поддеревья ранга 0
 ```mermaid
-graph LR
+graph TD
 subgraph R1
 A[0] --> B[1]
-C[2] --> A[0]
-C[2] --> E[4]
-
+B[1] --> A[0]
+end
+subgraph R2
+C[2] --> D[3]
+D[3] --> C[2]
+end
+subgraph R3
+E[4]
 end
 ```
 
