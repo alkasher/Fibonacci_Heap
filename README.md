@@ -56,9 +56,7 @@ end
 subgraph Fibonacci Heap
 direction LR
 Tree1-->Tree2
-Tree2-->Tree1
 Tree2-->Tree3
-Tree3-->Tree2
 end
 ```
 
