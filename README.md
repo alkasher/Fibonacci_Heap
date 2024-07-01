@@ -48,6 +48,6 @@ stateDiagram-v2
             notes.
         end note
         State1 --> State2
-        note left of State2 : This is the note to the left.
+        note down of State1 : This is the note to the left.
 ```
 
